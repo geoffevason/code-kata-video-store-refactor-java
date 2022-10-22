@@ -1,5 +1,7 @@
 # Code Dojo - Video Store Refactoring Kata
 
+Refactoring kata inspired by book "Refactoring: Improving the Design of Existing Code" (Martin Fowler).
+
 ## Kata Focus
 
 This purpose of this kata is practice refactoring. 
@@ -34,7 +36,8 @@ The software comes with tests that cover the existing interface.
 
 ## New Requirement
 
-** Coming soon
+The video store is going online and wants to generate a statement in HTML.
+The text statement still needs to work as it does today.
 
 ## Suggestions
 
@@ -44,4 +47,12 @@ The software comes with tests that cover the existing interface.
 - Aim for clean code:
   - objects and functions that do only 1 thing (Single Responsibilty Principle)
   - short functions and classes (bonus challenge - can you do this with no functions > 5 lines?)
-  
+
+## Bonus Requirement (if you have extra time)
+
+Add a new price code: "OSCAR_WINNERS".
+- Price for
+  - 1 day: $3
+  - 2-3 days: $2 / day
+  - 4+ days: $1.5 / day 
+- Frequent Renter Points: 1

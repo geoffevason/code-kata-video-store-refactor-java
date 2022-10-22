@@ -101,4 +101,31 @@ public class CustomerTest {
     assertEquals(expected, statement);
   }
 
+  // This test represents the new requirement. It will fail. Try to get it working.
+  // Aim to refactor the code (rather than have lots of duplicate code)
+//  @Test
+//  public void htmlStatementForManyMovies() {
+//    Movie movie1 = new Movie("Madagascar", Movie.CHILDRENS);
+//    Rental rental1 = new Rental(movie1, 6); // 6 day rental
+//    Movie movie2 = new Movie("Star Wars", Movie.NEW_RELEASE);
+//    Rental rental2 = new Rental(movie2, 2); // 2 day rental
+//    Movie movie3 = new Movie("Gone with the Wind", Movie.REGULAR);
+//    Rental rental3 = new Rental(movie3, 8); // 8 day rental
+//    Customer customer1
+//            = new CustomerBuilder()
+//            .withName("David")
+//            .withRentals(rental1, rental2, rental3)
+//            .build();
+//    String expected = "<h1>Rental Record for David</h1>" +
+//            "<table>" +
+//            "<tr><td>Madagascar</td><td>6.0</td></tr>" +
+//            "<tr><td>Star Wars</td><td>6.0</td></tr>" +
+//            "<tr><td>Gone with the Wind</td><td>11.0</td></tr>" +
+//            "</table>" +
+//            "<p>Amount owed is <em>23.0</em></p>" +
+//            "<p>You earned <em>4</em> frequent renter points</p>";
+//    String statement = customer1.textStatement();
+//    assertEquals(expected, statement);
+//  }
+
 }
